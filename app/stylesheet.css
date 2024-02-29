@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    color: white;
+    background-color: rgb(28, 28, 28);
+}
+#nav-bar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.5s;
+}
+.nav-ul{
+    background-color: rgba(0, 0, 0, 0.75);
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    box-shadow: 0 5px 5px 0 white;
+    transition: 2s;
+
+}
+.nav-logo{
+    height: 75px;
+    width: 75px;
+}
+.nav-a{
+    text-decoration: none;
+    color: white;
+}
+.nav-a:hover{
+    text-decoration: underline;
+}
+.message{
+    text-align: center;
+    font-family: "Oswald" ,sans-serif;
+    font-size: 70px;
+
+    font-weight: 800;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 470px;
+    margin-top: 350px;
+}
+.name{
+    position: absolute;
+    top: 20px;
+    left:700px;
+    margin: 170px 10px 90px 10px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 60px;
+    font-style: italic;
+    font-family: "Proza Libre",sans-serif;
+    transition: 1.5s;
+
+
+}
+
+.sec-mes{
+    transition:1s;
+}
+.prez{
+    margin: 100px 0 20px 0;
+}
+.prez-1,
+.prez-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 1000px;
+
+}
+.prez-art{
+    width: 50%;
+    background-color: #2d2d2d;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.prez-1-img,
+.prez-2-img{
+    width: 50%;
+    object-fit: cover;
+
+}
+.ancre{
+    text-decoration: none;
+    color: white;
+
+    cursor: pointer;
+    font-size: 40px;
+    border: 2px white solid;
+    border-radius: 100px;
+    padding: 20px;
+    background-color: black;
+
+}
+.container-ancre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+
+}
+.prez-2-title,
+.prez-1-title{
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-bottom: 100px;
+}
+.prez-2-desc1,
+.prez-2-desc2,
+.prez-2-desc3,
+.prez-2-desc0{
+    margin: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+footer{
+    margin-top: 30px;
+    float: right;
+}
+.prez-1-desc3,
+.prez-1-desc2,
+.prez-1-desc1{
+    width: 80%;
+    margin: 10px;
+    font-size: 24px;
+}
+
+.form-title{
+    font-size: 38px;
+    font-weight: 600;
+    margin: 20px;
+}
+.form-accueil{
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+    width: 50%;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+.input-accueil-message,
+.input-accueil-sub{
+    width: 50%;
+    margin-left: 25%;
+}
+.input-accueil-message,
+.input-accueil-sub,
+.input-accueil{
+    color: white;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 40px;
+    font-size: 12px;
+    padding: 5px 40px 5px 5px;
+    font-size: 15px;
+
+}
+.input-accueil-sub{
+    height: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    color: Black;
+    font-weight: 600;
+    transition: 1s;
+    font-size: 16px;
+}
+.input-accueil-sub:hover {
+    background-color: #bebebe;
+}
+.box-accueil-input{
+    position: relative;
+}
+
+.co-fond{
+
+    background: url("photo/img_connex.jpg") no-repeat;
+    background-size: cover;
+    height: 903px;
+
+}
+
+.page_co{
+    font-family: Poppins;
+    text-align: center;
+    display: flex;
+
+
+    justify-content: center;
+    margin-top: 10%;
+
+
+}
+.connect{
+    margin-top: 100px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid rgba(255,255,255,.2);
+    background: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgb(0,0,0,0.2);
+    color: white;
+
+}
+.inscr-connect{
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid rgba(255,255,255,.2);
+    background: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgb(0,0,0,0.2);
+    color: white;
+}
+.title-connect{
+    font-size: 36px;
+    text-align: center;
+}
+.box-Cpass,
+.box-nom,
+.box-prenom,
+.box-email,
+.box-geo,
+.box-pass{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    position: relative;
+}
+
+
+.input-box{
+    color: white;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 40px;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px;
+}
+.fa-lock,
+.fa-map-location,
+.fa-user{
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    font-size: 20px;
+}
+.btn-connect{
+    width: 100%;
+    margin: 20px 0px;
+    height: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    color: Black;
+    font-weight: 600;
+    font-size: 16px;
+}
+.go-inscription{
+
+    font-size: 12px;
+    color: cornflowerblue;
+    margin: 15px 100px;
+    cursor: pointer;
+}
+.go-inscription:hover{
+    text-decoration: underline;
+
+}
+.other-co{
+    color: white;
+}
+
+.other-link{
+    margin: 10px;
+    font-size: 20px;
+}
+.fa-google{
+    cursor: pointer;
+    font-size: 30px;
+    padding: 10px;
+    border: 2px white solid;
+    border-radius: 40px;
+
+}
+.fa-google:hover{
+    border: 3px white solid;
+
+}
+.name-co{
+    color: white;
+    font-family: 'Protest Revolution', sans-serif;
+    font-size: 40px;
+    list-style-type: none;
+    padding: 20px 50px;
+}
+.a-co{
+    color: white;
+}
+.btn-google{
+    color: white;
+}
+ul,
+li{
+    list-style-type: none;
+}
+.profil-li{
+    margin: 20px;
+}
+.dsend{
+    width: 100%;
+    margin: 20px 0px;
+    height: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    color: Black;
+    font-weight: 600;
+    font-size: 16px;
+    transition: 1s;
+}
+.dsend:hover{
+    background-color: #bebebe;
+
+}
+.go-mdp{
+    font-size: 12px;
+    color: cornflowerblue;
+    margin: 15px 100px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.go-mdp:hover{
+    text-decoration: underline;
+}
+.showmdp{
+    width: 50%;
+    height: 20px;
+    background: #fff;
+    border: none;
+
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    color: Black;
+    font-weight: 500;
+    font-size: 12px;
+    transition: 1s;
+}
+.showmdp:hover{
+    background-color: #bebebe;
+
+}
+.testmdp{
+    color: white;
+    width: 50%;
+    margin: 10px;
+    height: 10%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid white;
+    font-size: 12px;
+}
+.showmdp3{
+    width: 50%;
+    height: 20px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    color: Black;
+    font-weight: 500;
+    font-size: 12px;
+    transition: 1s;
+    margin: 20px;
+    display: none;
+
+}
+.showmdp3:hover{
+    background-color: #bebebe;
+
+}
+#calendar{
+    margin: 200px 200px;
+
+    width: 80%;
+}
+.valider-rdv{
+    background-color: rgba(255, 255, 255, 0.78);
+    position: absolute;
+    display: none;
+    color: black;
+    width: 16%;
+    height: 8%;
+    z-index: 1;
+}
+.mess-valider{
+    font-size: 16px;
+    font-weight: 800;
+    margin: 20px;
+    text-align: center;
+}
+.btnval{
+    width: 50%;
+    height: 20px;
+    background: #fff;
+    border: none;
+    margin-left: 25%;
+    margin-right: 25%;
+
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    color: Black;
+    font-weight: 500;
+    font-size: 12px;
+    transition: 1s;
+}
+.mess-annuler{
+    font-size: 16px;
+    font-weight: 800;
+    margin: 20px;
+    text-align: center;
+}
+.annuler-rdv{
+    background-color: rgba(255, 255, 255, 0.78);
+    position: absolute;
+    display: none;
+    color: black;
+    width: 16%;
+    height: 8%;
+    z-index: 1;
+}

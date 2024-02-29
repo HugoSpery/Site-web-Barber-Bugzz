@@ -1,0 +1,14 @@
+"""
+FROM php:8-fpm-alpine
+
+# Installer les extensions PHP nécessaires pour la connexion à PostgreSQL
+RUN apk --update --no-cache add \
+  postgresql-dev \
+  && docker-php-ext-install pdo pdo_pgsql
+
+# Copiez les fichiers du site web
+COPY . /home/hugs/SERVEUR/SITE/build
+
+# Définir le répertoire de travail
+WORKDIR /home/hugs/SERVEUR/SITE/build
+"""

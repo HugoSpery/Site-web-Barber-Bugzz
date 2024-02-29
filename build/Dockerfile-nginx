@@ -1,0 +1,12 @@
+"""
+FROM nginx:alpine
+
+# Copier la configuration de Nginx
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
+# Copiez les fichiers du site web
+COPY . /home/hugs/SERVEUR/SITE/build
+
+# Définir le répertoire de travail
+WORKDIR /home/hugs/SERVEUR/SITE/build
+"""
