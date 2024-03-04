@@ -30,7 +30,7 @@ function sendemail_rdv($nom, $email, $heure, $jour)
 
     $mail->Host = "smtp.gmail.com";
     $mail->Username = "hugowario42@gmail.com";
-    $mail->Password = "rzvv ekxr sorq ljsk";
+    $mail->Password = "";
     $mail->SMTPSecure = "tls";
     $mail->Port = 587;
     $mail->setFrom("hugowario42@gmail.com", $nom);
