@@ -1,8 +1,7 @@
 <?php session_start();
         include "../build/index.php";
         global $pdo;
-        define('GOOGLE_ID','140389587208-m8a1jtifi27usmtg7j0uau6dqcr81vtm.apps.googleusercontent.com');
-        define('GOOLGE_SECRET','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');
+        
 ?>
 <!DOCTYPE html>
 <html lang="fr">
